@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  text-align: center;
+  padding: 3rem 5rem;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #0f0f0f;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.image {
+  position: relative;
+}
+
+.image div {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.first-image {
+  background-image: url("img/1357261.jpeg");
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  width: 100%;
+  opacity: 0.8;
+  background-attachment: fixed;
+}
+
+.primary-text,
+.secondary-text,
+.ternary-text,
+.forth-text {
+  color: #fff;
+  background-color: #111;
+  padding: 20px;
+  white-space: nowrap;
+}
+
+.second-image {
+  background-image: url("img/matthew-henry-VviFtDJakYk-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  width: 100%;
+  opacity: 0.8;
+  background-attachment: fixed;
+}
+
+.third-image {
+  background-image: url("img/meduana-PdnseHuDFZU-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  width: 100%;
+  opacity: 0.8;
+  background-attachment: fixed;
+}
+
+.forth-image {
+  background-image: url("img/venti-views-lI7dlA5VBp8-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  width: 100%;
+  opacity: 0.8;
+  background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+  .first-image,
+  .second-image,
+  .third-image,
+  .forth-image {
+    min-height: 200px;
+  }
+}
